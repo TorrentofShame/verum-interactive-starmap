@@ -20,9 +20,10 @@ Art is by [Yowto](https://twitter.com/yowto_) and is used with their permission.
 - [x] Add link to artist over their signature on the art.
 - [x] Get permission from Artist.
 - [x] Make the planets stay where they need to be when the window is resized.
+- [ ] Add all the planets to the planets.js config file. <10/25>
+- [ ] Add the zoom cone (?) from each planet to its image in the info panel.
 - [ ] Add bigger images of the planets to the info panel.
 - [ ] Scale the selection elements to match the size of the main image.
-- [ ] Add the zoom cone (?) from each planet to its image in the info panel.
 - [ ] Add animations when planets are selected & hovered over.
 - [ ] Add a violet effect when The ~~Herald~~ Not-Quite-Purple is selected.
 
