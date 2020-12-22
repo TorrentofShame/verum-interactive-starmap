@@ -1,0 +1,26 @@
+{
+  "name": "Verum Interactive Starmap",
+  "version": "1.0.0",
+  "description": "An interactive star map for Arcadum's world of Verum. Art is by Yowto.",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": "gitlab:torrentofshame/verum-interactive-starmap",
+  "engines": {
+    "node": ">=14.15.1"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "next": "10.0.3",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "sass": "^1.30.0"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.12.0"
+  }
+}

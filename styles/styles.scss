@@ -1,0 +1,14 @@
+@import "_InteractiveMap";
+
+$backgroundColor: #000000;
+
+@font-face {
+  font-family: nasalization;
+  src: url("/assets/fonts/nasalization-rg.ttf");
+}
+
+html, body {
+  font-family: nasalization;
+  background-color: $backgroundColor;
+  margin: 0;
+}

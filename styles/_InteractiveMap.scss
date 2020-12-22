@@ -1,0 +1,88 @@
+img {
+  pointer-events: none;
+  user-select: none;
+  user-drag: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+a.artist-credit {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 6.615vw;
+  height: 8.125vw;
+}
+
+.map {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  vertical-align: top;
+  overflow: hidden;
+
+  .map-img {
+    padding-left: 320px;
+    width: auto;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    margin-right: 0!important;
+    width: initial!important;
+    min-width: initial!important;
+  }
+
+}
+
+.planet-area {
+  display: inline;
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  top: 1025px;
+  left: 1868px;
+  overflow: visible;
+  cursor: pointer;
+  padding-left: 0!important;
+
+  span {
+      position: absolute;
+      top: -66px;
+      left: 125px;
+      text-align: center;
+      color: lightgrey;
+      font-size: 40px;
+      font-weight: bold;
+      text-shadow: 1px 1px black;
+      border-bottom: grey solid 2px;
+      line-height: 80%;
+      padding: 20% 15px 0 0;
+      white-space: nowrap;
+    }
+}
+
+.info-panel {
+  padding-left: 0!important;
+  color: #A5A5A5;
+  position: absolute;
+  top: 50px;
+  left: 30px;
+  font-size: 18px;
+  height: 100%!important;
+
+  .planet-img {
+    margin-left: 50px;
+    height: 266px;
+    width: 266px;
+    position: relative;
+  }
+
+  div {
+    padding-left: 0!important;
+    width: 495px;
+
+    h1 { font-size: 50px; }
+  }
+}
