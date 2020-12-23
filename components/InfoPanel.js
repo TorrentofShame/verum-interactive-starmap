@@ -2,11 +2,20 @@ export default function InfoPanel(params) {
   const p = params.planet;
   return (
     <div className="info-panel">
-      <img className="planet-img" alt="" src={`/assets/planets/${p.name}_400x400.png`} />
+      <img
+        className="planet-img"
+        alt=""
+        src={`/assets/planets/${p.name}_400x400.png`}
+      />
       <div>
         <h1>{p.name}</h1>
         <em>{p.nebula}</em>
-        <div style={{whiteSpace: "pre-wrap", lineHeight: "150%"}} >{p.desc}</div>
+        <div
+          style={{
+            whiteSpace: "pre-wrap",
+            lineHeight: "150%"
+          }}
+        >{p.desc}</div>
       </div>
     </div>
   );
