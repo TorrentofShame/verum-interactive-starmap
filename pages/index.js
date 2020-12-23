@@ -38,7 +38,7 @@ export default function Home() {
         <meta name="robots" content="noindex, nofollow" />
         <title>Interactive Verum Starmap</title>
         <meta property="og:description" name="description" content="An interactive star map for Arcadum's world of Verum. Art is by Yowto." />
-        <meta name="author" content="TorrentofShame <simon@torrentofshame.com>; Yowto (twitter.com/yowto_)" />
+        <meta name="author" content="TorrentofShame <contact@simon.weizman.us>; Yowto (twitter.com/yowto_)" />
         <meta property="og:title" content="Interactive Verum Starmap" />
         <meta property="og:type" content="website" />
       </Head>
