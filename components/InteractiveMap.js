@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 
 import Selector from "./Selector";
 import InfoPanel from "./InfoPanel";
@@ -29,19 +28,19 @@ class InteractiveMap extends React.Component {
   handlePlanetClick(planet) {
     let newPlanetState = this.state;
     newPlanetState.selected = planet !== this.state.selected ? planet : "";
-    this.setState(state => (newPlanetState));
+    this.setState(() => (newPlanetState));
   }
 
   handlePlanetMouseOver(planet) {
     let newPlanetState = this.state;
     newPlanetState[planet] = {selected: this.state[planet].selected, hovered: true};
-    this.setState(state => (newPlanetState));
+    this.setState(() => (newPlanetState));
   }
 
   handlePlanetMouseOut(planet) {
     let newPlanetState = this.state;
     newPlanetState[planet] = {selected: this.state[planet].selected, hovered: false};
-    this.setState(state => (newPlanetState));
+    this.setState(() => (newPlanetState));
   }
 
   handleMapResize(e) {
@@ -52,7 +51,7 @@ class InteractiveMap extends React.Component {
         winWidth: e.currentTarget.innerWidth,
         winHeight: e.currentTarget.innerHeight,
         imgWidth: typeof mapimg !== "undefined" ? mapimg.width : undefined
-      }
+      };
     });
   }
 
@@ -63,7 +62,7 @@ class InteractiveMap extends React.Component {
         imgWidth: e.target.width,
         winWidth: e.target.offsetParent.clientWidth,
         winHeight: e.target.offsetParent.clientHeight
-      }
+      };
     });
   }
 
@@ -74,7 +73,10 @@ class InteractiveMap extends React.Component {
         className="planet-area"
         onClick={() => this.handlePlanetClick(poi.name)}
         onMouseOver={() => this.handlePlanetMouseOver(poi.name)}
+        onFocus={() => this.handlePlanetMouseOver(poi.name)}
         onMouseOut={() => this.handlePlanetMouseOut(poi.name)}
+        onBlur={() => this.handlePlanetMouseOut(poi.name)}
+        aria-hidden="true"
         style={{
           top: `${poi.pos_y*this.state.winHeight}px`,
           left: `${(poi.pos_x*this.state.imgWidth)+this.state.winWidth-this.state.imgWidth}px`,
@@ -85,7 +87,7 @@ class InteractiveMap extends React.Component {
           scale={1}
           size={poi.size}
           planet_name={poi.name}
-          isvisible={this.state.selected == poi.name || this.state[poi.name].hovered ? "visible" : "hidden"}
+          isvisible={this.state.selected === poi.name || this.state[poi.name].hovered ? "visible" : "hidden"}
         />
       </div>
     );
@@ -102,7 +104,7 @@ class InteractiveMap extends React.Component {
   }
 
   render() {
-    const selectedPoi = planets.find((v, i, a) => v.name == this.state.selected);
+    const selectedPoi = planets.find((v) => v.name === this.state.selected);
     const pois = planets.map((p) => this.poiAreaCreator(p, this));
 
     return (
@@ -123,9 +125,10 @@ class InteractiveMap extends React.Component {
         <a
           className="artist-credit"
           target="_blank"
+          rel="noreferrer"
           href="https://twitter.com/yowto_"
-          title="All Credit to the art goes to @yowto_ on Twitter"
-        />
+          aria-label="All credit to the art goes to @yowto_ on Twitter"
+        > </a>
       </div>
     );
   }

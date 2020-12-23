@@ -4,4 +4,4 @@ module.exports = {
     path: process.env.cloudinary_url,
     domains: ["res.cloudinary.com/"]
   }
-}
+};

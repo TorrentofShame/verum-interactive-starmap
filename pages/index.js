@@ -1,5 +1,4 @@
-import Head from 'next/head'
-import dynamic from "next/dynamic";
+import Head from "next/head";
 
 import InteractiveMap from "../components/InteractiveMap";
 
@@ -46,5 +45,5 @@ export default function Home() {
 
       <InteractiveMap />
     </div>
-  )
+  );
 }
