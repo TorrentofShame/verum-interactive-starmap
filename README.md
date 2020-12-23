@@ -32,7 +32,7 @@ This is an interactive star map for [Arcadum's](https://twitter.com/GloriousArca
 ## Future Roadmap
 - [ ] Add animations when planets are selected & hovered over.
 - [ ] Add a violet effect when The ~~Herald~~ Not-Quite-Purple is selected.
-- [ ] Implement as a Progressive Web Application (PWA).
+- [x] Implement as a Progressive Web Application (PWA).
 - [ ] Expand the level of detail that the app goes into for the specific planets.
 - [ ] Add stream campaign [^1] location tracking.
 
