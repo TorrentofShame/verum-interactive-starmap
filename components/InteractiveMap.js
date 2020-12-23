@@ -67,6 +67,7 @@ class InteractiveMap extends React.Component {
   }
 
   poiAreaCreator(poi) {
+    let size = Math.max(poi.size*this.state.imgWidth/1920, poi.size*this.state.winHeight/937);
     return (
       <div
         key={`${poi.pos_x}-${poi.pos_y}`}
@@ -78,14 +79,13 @@ class InteractiveMap extends React.Component {
         onBlur={() => this.handlePlanetMouseOut(poi.name)}
         aria-hidden="true"
         style={{
-          top: `${poi.pos_y*this.state.winHeight}px`,
-          left: `${(poi.pos_x*this.state.imgWidth)+this.state.winWidth-this.state.imgWidth}px`,
-          width: `${poi.size}px`,
-          height: `${poi.size}px`
+          top: `${(poi.pos_y*this.state.winHeight)-((poi.size/2)*this.state.winHeight/937)}px`,
+          left: `${(poi.pos_x*this.state.imgWidth)+this.state.winWidth-this.state.imgWidth-((poi.size/2)*this.state.imgWidth/1920)}px`,
+          width: `${size}px`,
+          height: `${size}px`
         }}>
         <Selector
-          scale={1}
-          size={poi.size}
+          size={size}
           planet_name={poi.name}
           isvisible={this.state.selected === poi.name || this.state[poi.name].hovered ? "visible" : "hidden"}
         />

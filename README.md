@@ -27,7 +27,7 @@ This is an interactive star map for [Arcadum's](https://twitter.com/GloriousArca
 - [x] Add bigger images of the planets to the info panel.
 - [ ] Make the info panel responsive like the rest of the app.
 - [ ] Add the zoom cone (?) from each planet to its image in the info panel.
-- [ ] Scale the selection elements to match the size of the main image.
+- [x] Scale the selection elements to match the size of the main image.
 - [ ] Add all the planets to the planets.js config file. <10/25>
 
 ## Future Roadmap
