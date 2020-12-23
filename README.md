@@ -11,8 +11,9 @@ This is an interactive star map for [Arcadum's](https://twitch.tv/arcadum) world
 ## Requirements
 - [Node.js](https://nodejs.org/en/) 14+
 
-## Credits
-Art is by [Yowto](https://twitter.com/yowto_) and is used with their permission.
+## Acknowledgements
+- Art is by [Yowto](https://twitter.com/yowto_) and is used with their permission.
+- The world of [Verum](https://www.worldanvil.com/w/verum-arcadum) is created by [Arcadum](https://twitch.tv/arcadum). The world is available [here](https://www.worldanvil.com/w/verum-arcadum).
 
 ## To-Do
 - [x] Have a selection element Appear over the planets when hovered & selected.
@@ -32,5 +33,3 @@ Art is by [Yowto](https://twitter.com/yowto_) and is used with their permission.
 - Email: [simon@torrentofshame.com](mailto://simon@torrentofshame.com)
 - GitLab: [@torrentofshame](https://gitlab.com/torrentofshame/)
 - Website: [https://simon.weizman.us](https://simon.weizman.us)
-
-The world of [Verum](https://www.worldanvil.com/w/verum-arcadum) is by [Arcadum](https://twitch.tv/arcadum). The world is available [here](https://www.worldanvil.com/w/verum-arcadum).
