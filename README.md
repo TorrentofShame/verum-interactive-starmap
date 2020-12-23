@@ -1,5 +1,7 @@
 ## Verum Interactive Starmap
-This is an interactive star map for [Arcadum's](https://twitch.tv/arcadum) world of [Verum](https://www.worldanvil.com/w/verum-arcadum). Art is by [Yowto](https://twitter.com/yowto_)
+This is an interactive star map for [Arcadum's](https://twitter.com/GloriousArcadum) world of [Verum](https://www.worldanvil.com/w/verum-arcadum). Art is by [Yowto](https://twitter.com/yowto_) with permission for personal use only. The favicon used is the official logo of [The Living World of Verum](https://twitter.com/WorldOfVerum).
+
+> Disclaimer: I am not affiliated with [Arcadum](https://twitter.com/GloriousArcadum) nor [The Living World of Verum](https://twitter.com/WorldOfVerum).
 
 ## Demo
 (Soon to come)
@@ -12,8 +14,9 @@ This is an interactive star map for [Arcadum's](https://twitch.tv/arcadum) world
 - [Node.js](https://nodejs.org/en/) 14+
 
 ## Acknowledgements
-- Art is by [Yowto](https://twitter.com/yowto_) and is used with their permission.
-- The world of [Verum](https://www.worldanvil.com/w/verum-arcadum) is created by [Arcadum](https://twitch.tv/arcadum). The world is available [here](https://www.worldanvil.com/w/verum-arcadum).
+- Art is by [Yowto](https://twitter.com/yowto_) and is used with their permission for personal use only.
+- The world of [Verum](https://www.worldanvil.com/w/verum-arcadum) is created by [Arcadum](https://twitter.com/GloriousArcadum). The world is available [here](https://www.worldanvil.com/w/verum-arcadum).
+- Font used is [Nasalization Regular](https://typodermicfonts.com/nasalization/) by Typodermic Fonts under a [license](https://www.fontspring.com//lic/e2fjm5vyjw)
 
 ## To-Do (Minimum Requirements)
 - [x] Have a selection element Appear over the planets when hovered & selected.
@@ -37,6 +40,11 @@ This is an interactive star map for [Arcadum's](https://twitch.tv/arcadum) world
 
 ## Contact
 **Simon Weizman**
-- Email: [simon@torrentofshame.com](mailto://simon@torrentofshame.com)
-- GitLab: [@torrentofshame](https://gitlab.com/torrentofshame/)
+- Email: [contact@simon.weizman.us](mailto://contact@simon.weizman.us)
 - Website: [https://simon.weizman.us](https://simon.weizman.us)
+- GitLab: [@torrentofshame](https://gitlab.com/torrentofshame/)
+
+## License
+> However unnecessary, it should be reiterated that the art, images, and fonts used are not owned by me and thus, are not affected by the following license.
+
+[Unlicense](https://choosealicense.com/licenses/unlicense/)
