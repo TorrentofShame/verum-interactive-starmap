@@ -61,6 +61,36 @@ module.exports = [
       desc: "The slinky planet, looks cool"
     }
   },
+  {
+    name: "Sarrekstorm",
+    pos_x: 0.71823,
+    pos_y: 0.29989,
+    size: 40,
+    info: {
+      nebula: "Haates Nebula",
+      desc: "A world formed from the corpses of dead astral giants."
+    }
+  },
+  {
+    name: "Xat'kell",
+    pos_x: 0.65208,
+    pos_y: 0.19317,
+    size: 40,
+    info: {
+      nebula: "Haates Nebula",
+      desc: "A world of mega fauna. Three gigantic brontosaurus's carry cities on their backs."
+    }
+  },
+  {
+    name: "Azengolt",
+    pos_x: 0.82448,
+    pos_y: 0.26041,
+    size: 40,
+    info: {
+      nebula: "Haates Nebula",
+      desc: "This world is filled with undead and ruled by the Depthar.\nHopefully none make their way to Verum and infect random goats. At least they got guns there."
+    }
+  },
   /* Dailos Nebula */
   {
     name: "Zeezus",
