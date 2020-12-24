@@ -9,16 +9,48 @@ module.exports = [
       desc: "Habitable - No equipment required\nTech level:  6\nThe place of the main plot. This is a temporary description.\nAnalysis:  Lorem ipsum dolor sit amet.\nRecommendation:  Lorem ipsum dolor sit amet."
     }
   },
+  /* Rentoss Nebula */
   {
-    name: "Astaranos",
+    name: "Erast",
     pos_x: 0.49011,
     pos_y: 0.42689,
+    size: 40,
+    info: {
+      nebula: "Rentoss Nebula",
+      desc: "A constructed world that also serves as a spaceport. This world is mostly populated by dwarfs and a race comprised of living energy called the Astrans."
+    }
+  },
+  {
+    name: "Band",
+    pos_x: 0.50573,
+    pos_y: 0.19210,
+    size: 40,
+    info: {
+      nebula: "Rentoss Nebula",
+      desc: "A world populated by humans from crashed colony ships. They are ruled by a series of \"deities\" that are actually AI."
+    }
+  },
+  {
+    name: "Astaranos",
+    pos_x: 0.43073,
+    pos_y: 0.35646,
     size: 40,
     info: {
       nebula: "Rentoss Nebula",
       desc: "A world where most of the surface area is water. Several island nations make war against each other."
     }
   },
+  {
+    name: "Ragdar",
+    pos_x: 0.50260,
+    pos_y: 0.30630,
+    size: 40,
+    info: {
+      nebula: "Rentoss Nebula",
+      desc: "A dead world. An engineered sterility virus has made this world abandoned...and ripe for looting."
+    }
+  },
+  /* Haates Nebula */
   {
     name: "Haalos",
     pos_x: 0.56563,
@@ -29,6 +61,7 @@ module.exports = [
       desc: "The slinky planet, looks cool"
     }
   },
+  /* Dailos Nebula */
   {
     name: "Zeezus",
     pos_x: 0.79792,
@@ -39,6 +72,7 @@ module.exports = [
       desc: "A jungle planet?"
     }
   },
+  /* Verza Nebula */
   {
     name: "Maltos",
     pos_x: 0.69532,
@@ -69,6 +103,7 @@ module.exports = [
       desc: "An asteroid hurtling through space. Inhabitants live within this sunless world. Occupied by fomorians and various bugkin."
     }
   },
+  /* Kasaka Nebula */
   {
     name: "Rampart",
     pos_x: 0.60104,
@@ -79,6 +114,7 @@ module.exports = [
       desc: "Inhabitable - No equipment required\nTech level:  5\nScattered villages of warlike nature.\n\nAnalysis:  Only hostile to those enemies known to them. However, honor and respect holds towards neutral parties.\n\nRecommendation: \nDiplomacy and demonstration of wealth and generosity. Gifts would work well."
     }
   },
+  /* Jhasa Nebula */
   {
     name: "Quierg",
     pos_x: 0.32657,
