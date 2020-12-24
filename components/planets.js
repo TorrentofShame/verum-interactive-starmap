@@ -140,7 +140,7 @@ module.exports = [
     size: 40,
     info: {
       nebula: "Verza Nebula",
-      desc: "Angelic counterpart to Greygum"
+      desc: "A world for angels to live their lives without having to resort to good."
     }
   },
   {
@@ -162,6 +162,46 @@ module.exports = [
     info: {
       nebula: "Kasaka Nebula",
       desc: "Inhabitable - No equipment required\nTech level:  5\nScattered villages of warlike nature.\n\nAnalysis:  Only hostile to those enemies known to them. However, honor and respect holds towards neutral parties.\n\nRecommendation: \nDiplomacy and demonstration of wealth and generosity. Gifts would work well."
+    }
+  },
+  {
+    name: "Odega",
+    pos_x: 0.44844,
+    pos_y: 0.77695,
+    size: 40,
+    info: {
+      nebula: "Kasaka Nebula",
+      desc: "A world partially devoured by a gigantic space worm."
+    }
+  },
+  {
+    name: "Dragonstar",
+    pos_x: 0.51458,
+    pos_y: 0.74707,
+    size: 40,
+    info: {
+      nebula: "Kasaka Nebula",
+      desc: "The home world of dragons."
+    }
+  },
+  {
+    name: "Storvex",
+    pos_x: 0.53438,
+    pos_y: 0.65101,
+    size: 40,
+    info: {
+      nebula: "Kasaka Nebula",
+      desc: "A world that possess five Great Storms that are worshiped by gods. People live in in the devastation paths of these storms. Magic on this world also revolves around them."
+    }
+  },
+  {
+    name: "Bouquet",
+    pos_x: 0.34531,
+    pos_y: 0.64461,
+    size: 40,
+    info: {
+      nebula: "Kasaka Nebula",
+      desc: "Inhabited by flower people. Has no war...but does have conflict."
     }
   },
   /* Jhasa Nebula */
