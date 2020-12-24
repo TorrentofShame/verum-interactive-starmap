@@ -31,7 +31,7 @@ export default function Selector(params) {
     <span
       style={{
         visibility: params.isvisible,
-        fontSize: `${params.size}px`,
+        fontSize: `${params.size-6}px`,
         top: `-${params.size*1.775}px`,
         left: `${params.size*2}px`
       }}

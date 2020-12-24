@@ -16,7 +16,7 @@ This is an interactive star map for [Arcadum's](https://twitter.com/GloriousArca
 ## Acknowledgements
 - Art is by [Yowto](https://twitter.com/yowto_) and is used with their permission for personal use only.
 - The world of [Verum](https://www.worldanvil.com/w/verum-arcadum) is created by [Arcadum](https://twitter.com/GloriousArcadum). The world is available [here](https://www.worldanvil.com/w/verum-arcadum).
-- Font used is [Nasalization Regular](https://typodermicfonts.com/nasalization/) by Typodermic Fonts under a [license](https://www.fontspring.com//lic/e2fjm5vyjw)
+- Font used is [Nasalization Regular](https://typodermicfonts.com/nasalization/) by Typodermic Fonts under a [license](https://www.fontspring.com/licenses/typodermic/webfont)
 
 ## To-Do (Minimum Requirements)
 - [x] Have a selection element Appear over the planets when hovered & selected.
