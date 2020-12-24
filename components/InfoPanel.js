@@ -5,7 +5,7 @@ export default function InfoPanel(params) {
       <img
         className="planet-img"
         alt=""
-        src={`/assets/planets/${p.name}_400x400.png`}
+        src={`/assets/planets/${p.name}.png`}
       />
       <div>
         <h1>{p.name}</h1>

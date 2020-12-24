@@ -5,7 +5,6 @@ module.exports = [
     pos_y: 0.48452,
     size: 40,
     info: {
-      img: "/assets/planets/verum_badedit_400x400.png",
       nebula: "The Prime Material Plane",
       desc: "Habitable - No equipment required\nTech level:  6\nThe place of the main plot. This is a temporary description.\nAnalysis:  Lorem ipsum dolor sit amet.\nRecommendation:  Lorem ipsum dolor sit amet."
     }
@@ -16,7 +15,6 @@ module.exports = [
     pos_y: 0.42689,
     size: 40,
     info: {
-      img: "/assets/planets/verum_badedit_400x400.png",
       nebula: "Rentoss Nebula",
       desc: "A world where most of the surface area is water. Several island nations make war against each other."
     }
@@ -27,7 +25,6 @@ module.exports = [
     pos_y: 0.34791,
     size: 40,
     info: {
-      img: "/assets/planets/verum_badedit_400x400.png",
       nebula: "Haates Nebula",
       desc: "The slinky planet, looks cool"
     }
@@ -38,7 +35,6 @@ module.exports = [
     pos_y: 0.71825,
     size: 40,
     info: {
-      img: "/assets/planets/verum_badedit_400x400.png",
       nebula: "Dailos Nebula",
       desc: "A jungle planet?"
     }
@@ -49,7 +45,6 @@ module.exports = [
     pos_y: 0.82390,
     size: 40,
     info: {
-      img: "/assets/planets/verum_badedit_400x400.png",
       nebula: "Verza Nebula",
       desc: "Error...data corrupted."
     }
@@ -60,7 +55,6 @@ module.exports = [
     pos_y: 0.82924,
     size: 40,
     info: {
-      img: "/assets/planets/verum_badedit_400x400.png",
       nebula: "Verza Nebula",
       desc: "Angelic counterpart to Greygum"
     }
@@ -71,7 +65,6 @@ module.exports = [
     pos_y: 0.53361,
     size: 40,
     info: {
-      img: "/assets/planets/verum_badedit_400x400.png",
       nebula: "Verza Nebula",
       desc: "An asteroid hurtling through space. Inhabitants live within this sunless world. Occupied by fomorians and various bugkin."
     }
@@ -82,7 +75,6 @@ module.exports = [
     pos_y: 0.60725,
     size: 40,
     info: {
-      img: "/assets/planets/Rampart_400x400.png",
       nebula: "Kasaka Nebula",
       desc: "Inhabitable - No equipment required\nTech level:  5\nScattered villages of warlike nature.\n\nAnalysis:  Only hostile to those enemies known to them. However, honor and respect holds towards neutral parties.\n\nRecommendation: \nDiplomacy and demonstration of wealth and generosity. Gifts would work well."
     }
@@ -93,7 +85,6 @@ module.exports = [
     pos_y: 0.29028,
     size: 40,
     info: {
-      img: "/assets/planets/verum_badedit_400x400.png",
       nebula: "Jhasa Nebula",
       desc: "Libido Come to Queirg the Giant Space Whale"
     }
@@ -104,7 +95,6 @@ module.exports = [
     pos_y: 0.49839,
     size: 40,
     info: {
-      img: "/assets/planets/verum_badedit_400x400.png",
       nebula: "Jhasa Nebula",
       desc: "Another Japan planet I think. Also wolf/deer boy has something to do with this place."
     }

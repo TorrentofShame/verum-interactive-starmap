@@ -8,6 +8,10 @@
 # testing
 /coverage
 
+# generated service worker files
+/public/*.js
+/public/*.map
+
 # next.js
 /.next/
 /out/
