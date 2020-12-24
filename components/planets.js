@@ -103,6 +103,16 @@ module.exports = [
     }
   },
   {
+    name: "Void Fields",
+    pos_x: 0.75313,
+    pos_y: 0.45998,
+    size: 40,
+    info: {
+      nebula: "Dailos Nebula",
+      desc: "Destroyed. Unavailable for play currently."
+    }
+  },
+  {
     name: "Valkas",
     pos_x: 0.84322,
     pos_y: 0.49200,
@@ -206,13 +216,13 @@ module.exports = [
   },
   /* Jhasa Nebula */
   {
-    name: "Quierg",
-    pos_x: 0.32657,
-    pos_y: 0.29028,
+    name: "Baba Yaga",
+    pos_x: 0.36719,
+    pos_y: 0.54963,
     size: 40,
     info: {
       nebula: "Jhasa Nebula",
-      desc: "Libido Come to Queirg the Giant Space Whale"
+      desc: "It is the birthplace of witchcraft and home of the Patrons."
     }
   },
   {
@@ -222,7 +232,27 @@ module.exports = [
     size: 40,
     info: {
       nebula: "Jhasa Nebula",
-      desc: "Another Japan planet I think. Also wolf/deer boy has something to do with this place."
+      desc: "A world filled with eastern religious folklore. Home to yokai and kami."
+    }
+  },
+  {
+    name: "Werwa",
+    pos_x: 0.36667,
+    pos_y: 0.38847,
+    size: 40,
+    info: {
+      nebula: "Jhasa Nebula",
+      desc: "A Mad Max/post-apocalyptic world."
+    }
+  },
+  {
+    name: "Quierg",
+    pos_x: 0.32657,
+    pos_y: 0.29028,
+    size: 40,
+    info: {
+      nebula: "Jhasa Nebula",
+      desc: "Giant Space whale, you must use crystals to restore spell slots."
     }
   }
 ];
