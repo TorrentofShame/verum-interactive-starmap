@@ -22,7 +22,7 @@ export default function Selector(params) {
         }}
       />
       <path
-        d={`M${params.size} 0 L${params.size*2} -${params.size*0.75} L${params.size/0.16} -${params.size*0.75}`}
+        d={`M${params.size} 0 L${params.size*2} -${params.size*0.75} L${params.size*3.75} -${params.size*0.75}`}
         stroke="grey"
         strokeWidth="3"
         fill="none"

@@ -22,6 +22,22 @@ export default function InfoPanel(params) {
 }
 
 // TODO: Add the zoom cone (?) from each planet to its image in the info panel.
+/*
+<svg className="zoomcone" style={{overflow: "visible"}}>
+  <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style={{stopColor: "rgb(255 255 255)", stopOpacity: "0.1"}} />
+    <stop offset="100%" style={{stopColor: "rgb(255 255 255)", stopOpacity: "0.05"}} />
+  </linearGradient>
+  <path
+    d="M-100 -88 L898 387 L895 408 L-150 130 Z"
+    style={{
+      marginLeft: 0,
+      fill: "url(#grad)"
+    }}
+  />
+</svg>
+ 
+*/
 
 /*
  * Rampart

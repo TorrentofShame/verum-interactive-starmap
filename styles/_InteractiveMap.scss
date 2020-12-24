@@ -22,6 +22,7 @@ a.artist-credit {
   width: 100vw;
   vertical-align: top;
   overflow: hidden;
+  z-index: -1;
 
   .map-img {
     padding-left: 320px;
@@ -46,6 +47,7 @@ a.artist-credit {
   overflow: visible;
   cursor: pointer;
   padding-left: 0!important;
+  z-index: 2;
 
   span {
       position: absolute;
@@ -77,6 +79,7 @@ a.artist-credit {
     height: 28.38847vh;
     width: 28.38847vh;
     position: relative;
+    z-index: 0;
   }
 
   div {
@@ -85,4 +88,9 @@ a.artist-credit {
 
     h1 { font-size: 5.33618vh; }
   }
+
+  .zoomcone {
+    z-index: 1;
+  }
 }
+
