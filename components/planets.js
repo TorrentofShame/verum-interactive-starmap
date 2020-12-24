@@ -93,13 +93,33 @@ module.exports = [
   },
   /* Dailos Nebula */
   {
+    name: "Greygrum",
+    pos_x: 0.66875,
+    pos_y: 0.45784,
+    size: 40,
+    info: {
+      nebula: "Dailos Nebula",
+      desc: "A world for demons/devils to live their lives without having to resort to evil."
+    }
+  },
+  {
+    name: "Valkas",
+    pos_x: 0.84322,
+    pos_y: 0.49200,
+    size: 40,
+    info: {
+      nebula: "Dailos Nebula",
+      desc: "A volcanic world ruled by the fanatical/over-zealous Fire Cult."
+    }
+  },
+  {
     name: "Zeezus",
     pos_x: 0.79792,
     pos_y: 0.71825,
     size: 40,
     info: {
       nebula: "Dailos Nebula",
-      desc: "A jungle planet?"
+      desc: "A jungle planet. Where life competes in survival of the fittest in a constant struggle of evolution."
     }
   },
   /* Verza Nebula */
