@@ -1,6 +1,8 @@
 ## Verum Interactive Starmap
 This is an interactive star map for [Arcadum's](https://twitter.com/GloriousArcadum) world of [Verum](https://www.worldanvil.com/w/verum-arcadum). Art is by [Yowto](https://twitter.com/yowto_) with permission for personal use only. The favicon used is the official logo of [The Living World of Verum](https://twitter.com/WorldOfVerum).
 
+The official home of this repository is at [https://gitlab.com/torrentofshame/verum-interactive-starmap](https://gitlab.com/torrentofshame/verum-interactive-starmap).
+
 > Disclaimer: I am not affiliated with [Arcadum](https://twitter.com/GloriousArcadum) nor [The Living World of Verum](https://twitter.com/WorldOfVerum).
 
 ## Demo
