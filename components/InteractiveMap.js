@@ -108,7 +108,8 @@ class InteractiveMap extends React.Component {
     const selectedPoi = planets.find((v) => v.name === this.state.selected);
     const pois = planets.map((p) => this.poiAreaCreator(p, this));
 
-    return (
+    return (<>
+      <div className="mapCover" />
       <div className="map">
         <img
           id="map-img"
@@ -131,7 +132,7 @@ class InteractiveMap extends React.Component {
           aria-label="All credit to the art goes to @yowto_ on Twitter"
         > </a>
       </div>
-    );
+    </>);
   }
 }
 

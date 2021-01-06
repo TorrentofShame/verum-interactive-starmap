@@ -17,3 +17,18 @@ html, body {
   background-color: $backgroundColor;
   margin: 0;
 }
+
+.mapCover {
+  z-index: -1;
+  @media (max-aspect-ratio: 1186/791) {
+    z-index: 3;
+    background-color: $backgroundColor;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    &:after {
+      content: "Please resize/rotate window to landscape mode.";
+      color: white;
+    }
+  }
+}
