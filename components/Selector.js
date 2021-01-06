@@ -17,14 +17,14 @@ export default function Selector(params) {
         height={`${params.size}`}
         style={{
           fillOpacity: 0,
-          strokeWidth: 3,
+          strokeWidth: 0.0032*params.winH,
           stroke: "grey"
         }}
       />
       <path
         d={`M${params.size} 0 L${params.size*2} -${params.size*0.75} L${params.size*3.75} -${params.size*0.75}`}
         stroke="grey"
-        strokeWidth="3"
+        strokeWidth={`${0.0032*params.winH}`}
         fill="none"
       />
     </svg>

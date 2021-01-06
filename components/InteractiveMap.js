@@ -86,6 +86,7 @@ class InteractiveMap extends React.Component {
         }}>
         <Selector
           size={size}
+          winH={this.state.winHeight}
           planet_name={poi.name}
           isvisible={this.state.selected === poi.name || this.state[poi.name].hovered ? "visible" : "hidden"}
         />
