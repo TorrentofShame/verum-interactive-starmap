@@ -21,7 +21,7 @@ html, body {
 .mapCover {
   z-index: -1;
   @media (max-aspect-ratio: 1186/791) {
-    z-index: 3;
+    z-index: 4;
     background-color: $backgroundColor;
     position: absolute;
     width: 100vw;

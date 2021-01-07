@@ -122,7 +122,17 @@ class InteractiveMap extends React.Component {
         />
         {pois }
         {selectedPoi &&
-          <InfoPanel planet={{name: selectedPoi.name, ...selectedPoi.info}}/>
+          <InfoPanel
+            winHeight={this.state.winHeight}
+            imgWidth={this.state.imgWidth}
+            winWidth={this.state.winWidth}
+            planet={{
+              name: selectedPoi.name,
+              pos_x: selectedPoi.pos_x,
+              pos_y: selectedPoi.pos_y,
+              ...selectedPoi.info
+            }}
+          />
         }
         <a
           className="artist-credit"

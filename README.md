@@ -28,7 +28,7 @@ The official home of this repository is at [https://gitlab.com/torrentofshame/ve
 - [x] Make the planets stay where they need to be when the window is resized.
 - [x] Add bigger images of the planets to the info panel.
 - [x] Make the info panel responsive like the rest of the app.
-- [ ] Add the zoom cone (?) from each planet to its image in the info panel.
+- [x] Add the zoom cone (?) from each planet to its image in the info panel.
 - [x] Scale the selection elements to match the size of the main image.
 - [x] Add all the planets to the planets.js config file. <25/25>
 
