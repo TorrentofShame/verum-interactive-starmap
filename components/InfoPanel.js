@@ -26,7 +26,7 @@ export default function InfoPanel(params) {
             whiteSpace: "pre-wrap",
             lineHeight: "150%"
           }}
-        >{p.desc}</div>
+        >{`${p.habitability}\nTech Level: ${p.tech_level}\n${p.desc}`}</div>
       </div>
     </div>
   );

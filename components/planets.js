@@ -6,7 +6,9 @@ module.exports = [
     size: 40,
     info: {
       nebula: "The Prime Material Plane",
-      desc: "Habitable - No equipment required\nTech level:  6\nThe place of the main plot. This is a temporary description.\nAnalysis:  Lorem ipsum dolor sit amet.\nRecommendation:  Lorem ipsum dolor sit amet."
+      habitability: "Habitable - No equipment required",
+      tech_level: 6,
+      desc: "The place of the main plot. This is a temporary description.\nAnalysis: Lorem ipsum dolor sit amet.\nRecommendation: Lorem ipsum dolor sit amet."
     }
   },
   /* Rentoss Nebula */
@@ -17,7 +19,10 @@ module.exports = [
     size: 40,
     info: {
       nebula: "Rentoss Nebula",
-      desc: "A constructed world that also serves as a spaceport. This world is mostly populated by dwarfs and a race comprised of living energy called the Astrans."
+      habitability: "Habitable - No equipment required",
+      tech_level: 6,
+      type: "Dwarf Planet",
+      desc: "A constructed world that also serves as a spaceport. This world is mostly populated by dwarfs and a race comprised of living energy called the Astrans. Due to the latent magical energy, spell casting capabilities are regenerated every hour."
     }
   },
   {
@@ -27,6 +32,8 @@ module.exports = [
     size: 40,
     info: {
       nebula: "Rentoss Nebula",
+      habitability: "Habitable - No equipment required",
+      tech_level: 0,
       desc: "A world populated by humans from crashed colony ships. They are ruled by a series of \"deities\" that are actually AI."
     }
   },
@@ -37,7 +44,10 @@ module.exports = [
     size: 40,
     info: {
       nebula: "Rentoss Nebula",
-      desc: "A world where most of the surface area is water. Several island nations make war against each other."
+      habitability: "Habitable - No equipment required",
+      tech_level: 7,
+      type: "Island Planet",
+      desc: "A world made of 4 island nations, consisting of only humans. Travel is mainly consistant of sea ships with frequent and terrifying storms."
     }
   },
   {
@@ -47,7 +57,10 @@ module.exports = [
     size: 40,
     info: {
       nebula: "Rentoss Nebula",
-      desc: "A dead world. An engineered sterility virus has made this world abandoned...and ripe for looting."
+      habitability: "Lifeless - Conception is impossible",
+      tech_level: 6,
+      type: "Lifeless Planet",
+      desc: "Contains the ancient ruins of an advanced civilization known as \"The Terrans\". Planet was destroyed by a sterilization spell that made conception impossible."
     }
   },
   /* Haates Nebula */
@@ -58,6 +71,8 @@ module.exports = [
     size: 40,
     info: {
       nebula: "Haates Nebula",
+      habitability: "Habitable - No equipment required",
+      tech_level: 0,
       desc: "The slinky planet, looks cool"
     }
   },
@@ -68,6 +83,8 @@ module.exports = [
     size: 40,
     info: {
       nebula: "Haates Nebula",
+      habitability: "Habitable - No equipment required",
+      tech_level: 0,
       desc: "A world formed from the corpses of dead astral giants."
     }
   },
@@ -78,7 +95,10 @@ module.exports = [
     size: 40,
     info: {
       nebula: "Haates Nebula",
-      desc: "A world of mega fauna. Three gigantic brontosaurus's carry cities on their backs."
+      habitability: "Habitable - No equipment required",
+      tech_level: 6,
+      type: "Planet",
+      desc: "An all human plane ruled by the Legion of the Black Sun and 3 Independant Merchant Kings."
     }
   },
   {
@@ -88,6 +108,8 @@ module.exports = [
     size: 40,
     info: {
       nebula: "Haates Nebula",
+      habitability: "Habitable - No equipment required",
+      tech_level: 0,
       desc: "This world is filled with undead and ruled by the Depthar.\nHopefully none make their way to Verum and infect random goats. At least they got guns there."
     }
   },
@@ -99,6 +121,8 @@ module.exports = [
     size: 40,
     info: {
       nebula: "Dailos Nebula",
+      habitability: "Habitable - No equipment required",
+      tech_level: 0,
       desc: "A world for demons/devils to live their lives without having to resort to evil."
     }
   },
@@ -109,6 +133,9 @@ module.exports = [
     size: 40,
     info: {
       nebula: "Dailos Nebula",
+      habitability: "InHabitable - Inhabited only by void creatures",
+      tech_level: 0,
+      type: "Shattered Planet",
       desc: "Destroyed. Unavailable for play currently."
     }
   },
@@ -119,6 +146,8 @@ module.exports = [
     size: 40,
     info: {
       nebula: "Dailos Nebula",
+      habitability: "Habitable - No equipment required",
+      tech_level: 0,
       desc: "A volcanic world ruled by the fanatical/over-zealous Fire Cult."
     }
   },
@@ -129,6 +158,9 @@ module.exports = [
     size: 40,
     info: {
       nebula: "Dailos Nebula",
+      habitability: "Habitable - No equipment required",
+      tech_level: 0,
+      type: "Planet",
       desc: "A jungle planet. Where life competes in survival of the fittest in a constant struggle of evolution."
     }
   },
@@ -140,6 +172,8 @@ module.exports = [
     size: 40,
     info: {
       nebula: "Verza Nebula",
+      habitability: "Habitable - No equipment required",
+      tech_level: 12,
       desc: "Error...data corrupted."
     }
   },
@@ -150,6 +184,8 @@ module.exports = [
     size: 40,
     info: {
       nebula: "Verza Nebula",
+      habitability: "Habitable - No equipment required",
+      tech_level: 0,
       desc: "A world for angels to live their lives without having to resort to good."
     }
   },
@@ -160,6 +196,8 @@ module.exports = [
     size: 40,
     info: {
       nebula: "Verza Nebula",
+      habitability: "Habitable - No equipment required",
+      tech_level: 0,
       desc: "An asteroid hurtling through space. Inhabitants live within this sunless world. Occupied by fomorians and various bugkin."
     }
   },
@@ -171,7 +209,10 @@ module.exports = [
     size: 40,
     info: {
       nebula: "Kasaka Nebula",
-      desc: "Inhabitable - No equipment required\nTech level:  5\nScattered villages of warlike nature.\n\nAnalysis:  Only hostile to those enemies known to them. However, honor and respect holds towards neutral parties.\n\nRecommendation: \nDiplomacy and demonstration of wealth and generosity. Gifts would work well."
+      habitability: "Habitable - No equipment required",
+      tech_level: 5,
+      type: "Planet",
+      desc: "22 Feudal States in perpetual conflict due to bad blood between the states.\n\nAnalysis:  Only hostile to those enemies known to them. However, honor and respect holds towards neutral parties.\n\nRecommendation: \nDiplomacy and demonstration of wealth and generosity. Gifts would work well."
     }
   },
   {
@@ -181,6 +222,8 @@ module.exports = [
     size: 40,
     info: {
       nebula: "Kasaka Nebula",
+      habitability: "Habitable - No equipment required",
+      tech_level: 0,
       desc: "A world partially devoured by a gigantic space worm."
     }
   },
@@ -191,7 +234,10 @@ module.exports = [
     size: 40,
     info: {
       nebula: "Kasaka Nebula",
-      desc: "The home world of dragons."
+      habitability: "Habitable - No equipment required",
+      tech_level: 5,
+      type: "Planet",
+      desc: "The birthplace of dragon kind. Persistent draconic fighting has destroyed all human presence on the world."
     }
   },
   {
@@ -201,6 +247,8 @@ module.exports = [
     size: 40,
     info: {
       nebula: "Kasaka Nebula",
+      habitability: "Habitable - No equipment required",
+      tech_level: 0,
       desc: "A world that possess five Great Storms that are worshiped by gods. People live in in the devastation paths of these storms. Magic on this world also revolves around them."
     }
   },
@@ -211,6 +259,8 @@ module.exports = [
     size: 40,
     info: {
       nebula: "Kasaka Nebula",
+      habitability: "Habitable - No equipment required",
+      tech_level: 0,
       desc: "Inhabited by flower people. Has no war...but does have conflict."
     }
   },
@@ -222,7 +272,10 @@ module.exports = [
     size: 40,
     info: {
       nebula: "Jhasa Nebula",
-      desc: "It is the birthplace of witchcraft and home of the Patrons."
+      habitability: "Habitable - No equipment required",
+      tech_level: 7,
+      type: "Planet",
+      desc: "The birthplace of witchcraft, homeworld of the Patrons, and is ruled by the Witchqueen. Other dietic powers do not function due to the precense of the Patrons."
     }
   },
   {
@@ -232,6 +285,9 @@ module.exports = [
     size: 40,
     info: {
       nebula: "Jhasa Nebula",
+      habitability: "Habitable - No equipment required",
+      tech_level: 4,
+      type: "Forest Planet",
       desc: "A world filled with eastern religious folklore. Home to yokai and kami."
     }
   },
@@ -242,6 +298,8 @@ module.exports = [
     size: 40,
     info: {
       nebula: "Jhasa Nebula",
+      habitability: "Habitable - No equipment required",
+      tech_level: 0,
       desc: "A Mad Max/post-apocalyptic world."
     }
   },
@@ -252,7 +310,9 @@ module.exports = [
     size: 40,
     info: {
       nebula: "Jhasa Nebula",
-      desc: "Giant Space whale, you must use crystals to restore spell slots."
+      habitability: "Habitable - No equipment required",
+      tech_level: 8,
+      desc: "Giant Space whale, you must use crystals to restore spell slots. As the whale moves throughout the astral sea, sometimes it knocks into other celetial bodies, these instances are known as \"Whoopsie-doodles\" to the occupants of the whale."
     }
   }
 ];
